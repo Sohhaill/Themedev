@@ -1,0 +1,73 @@
+ul#menu-header-menu {
+    display: flex !important;
+    gap: 23px;
+    margin-bottom: unset;
+}
+ul#menu-header-menu li {
+list-style: none;
+
+}
+ul#menu-header-menu a {
+   text-decoration: none;
+color: #0D0D0DCC !important;
+}
+ul#menu-footer-1, ul#menu-footer-2 {
+    margin: unset;
+    padding: unset;
+    display: flex
+;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+ul#menu-footer-1 a, ul#menu-footer-2 a, ul#menu-footer-3 a{
+    text-decoration: none;
+    color: white;
+}
+ul#menu-footer-3{
+    display: flex;
+    gap: 15px;
+}
+li#menu-item-203{
+    list-style: none;
+    margin-right: 18px;
+}
+div#mobile_menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div#mobile_menu li{
+    list-style: none;
+    text-align: right;
+}
+div#mobile_menu a{
+    text-decoration: none;
+color: black;
+}
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Font/Tajawal-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face {
+        font-family: 'Araboto';
+        src: url('<?php echo get_template_directory_uri(); ?>/assets/bootstrap/font/Araboto Medium 400.woff') format('woff'),
+             url('<?php echo get_template_directory_uri(); ?>/assets/bootstrap/font/Araboto Medium 400.woff') format('woff'),
+        font-weight: normal;
+        font-style: normal;
+    }
+p{
+font-size: 16px;
+}
+h1, p, span, h2, h3, h4, h5, h6, div, a{
+    font-family: 'Tajawal', serif !important
+}
+@media (max-width:768px){
+    h1, h2, h3{
+        font-size: 24px !important;
+    }
+}
